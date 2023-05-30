@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: nba_players
+    database: nba_db    
+    schema: nba_sch  
+    tables:
+      - name: player
+      - name: games_info
+
